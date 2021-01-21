@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/nerdeveloper/argocd.git
     targetRevision: HEAD
-    path: argo/
+    path: argo
     directory:
       recurse: true
   destination:
