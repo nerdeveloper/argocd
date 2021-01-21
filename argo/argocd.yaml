@@ -54,9 +54,6 @@ spec:
     repoURL: https://github.com/argoproj/argocd-example-apps.git
     targetRevision: HEAD
     path: guestbook-kustomize
-
-    kustomize:
-      version: v3.5.4
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
