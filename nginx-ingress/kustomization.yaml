@@ -1,0 +1,4 @@
+namespace: default
+resources:
+  - https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.43.0/deploy/static/provider/aws/deploy.yaml
+
