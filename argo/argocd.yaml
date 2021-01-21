@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/nerdeveloper/argocd.git
     targetRevision: HEAD
-    path: argocd-apps/argo
+    path: argo/
     directory:
       recurse: true
   destination:
@@ -33,7 +33,7 @@ spec:
   source:
     repoURL: https://github.com/nerdeveloper/argocd.git
     targetRevision: HEAD
-    path: argocd-apps/nginx-ingress
+    path: nginx-ingress
     directory:
       recurse: true
   destination:
