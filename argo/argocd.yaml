@@ -59,7 +59,7 @@ spec:
       version: v3.5.4
   destination:
     server: https://kubernetes.default.svc
-    namespace:
+    namespace: argocd
   syncPolicy:
     automated:
       prune: false
