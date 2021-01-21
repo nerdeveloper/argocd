@@ -40,23 +40,23 @@ spec:
       prune: false
       selfHeal: false
 
----
-apiVersion: argoproj.io/v1alpha1
-kind: Application
-metadata:
-  name: guestbook
-spec:
-  project: default
-  source:
-    repoURL: https://github.com/argoproj/argocd-example-apps.git
-    targetRevision: HEAD
-    path: kustomize-guestbook
-  destination:
-    server: https://kubernetes.default.svc
-    namespace: argocd
-  syncPolicy:
-    automated:
-      prune: false
-      selfHeal: false
+#---
+#apiVersion: argoproj.io/v1alpha1
+#kind: Application
+#metadata:
+#  name: guestbook
+#spec:
+#  project: default
+#  source:
+#    repoURL: https://github.com/argoproj/argocd-example-apps.git
+#    targetRevision: HEAD
+#    path: kustomize-guestbook
+#  destination:
+#    server: https://kubernetes.default.svc
+#    namespace: argocd
+#  syncPolicy:
+#    automated:
+#      prune: false
+#      selfHeal: false
 
 
